@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="292dp"
+        android:layout_height="161dp"
+        android:layout_below="@+id/videoView"
+        android:layout_alignStart="@+id/videoView"
+        android:layout_alignLeft="@+id/videoView"
+        android:layout_alignBottom="@+id/videoView"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="-710dp"
+        android:layout_marginEnd="-309dp"
+        android:layout_marginRight="-309dp"
+        android:layout_marginBottom="548dp"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        app:srcCompat="@drawable/bonan" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="424dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/videoView"
+        android:layout_alignEnd="@+id/videoView"
+        android:layout_alignRight="@+id/videoView"
+        android:layout_marginStart="-100dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="-731dp"
+        android:layout_marginEnd="-41dp"
+        android:layout_marginRight="-41dp"
+        android:layout_toEndOf="@+id/bonan"
+        android:layout_toRightOf="@+id/bonan"
+        android:text="TextView"
+        tools:text="The best pancake maker in Seattle. Provide option to add extra beacon or sausage." />
+
+</RelativeLayout>
